@@ -42,7 +42,7 @@ onMounted(() => {
             <p class="card-text">{{activeBlog.body}}</p>
           </div>
           <div class="col-2">
-            <img class="img-fluid" :src="activeBlog.imgUrl" alt="TEST">
+            <img class="img-fluid" :src="activeBlog.imgUrl" alt="Cover Image">
           </div>
         </div>
       </div>
